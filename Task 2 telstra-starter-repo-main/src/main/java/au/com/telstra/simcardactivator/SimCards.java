@@ -25,6 +25,20 @@ public class SimCards {
         this.active = active;
     }
 
+    public String getIccid() {
+        return iccid;
+    }
+
+    public String getCustomerEmail() {
+        return customerEmail;
+    }
+
+    public Boolean getActive() {
+        return active;
+    }
+
+
+
     public Long getId() {
         return id;
     }
